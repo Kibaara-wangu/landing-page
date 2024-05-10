@@ -7,8 +7,8 @@
 #page{
     background-color: #FACFCC;
     border-radius: 40px;
-    border-radius: 20px;
     border: solid 8px;
+    border-color: #FACFCC;
     font-size: 20px;
 }
 input{
@@ -54,7 +54,7 @@ button{
     font-size: 20px;
     background-color: white;
 }
-@media only screen and (max-width: 412px){
+@media only screen and (min-width: 280px) and (max-width: 420px){
     #header{
         display: flex;
         flex-wrap: wrap;
@@ -66,6 +66,7 @@ button{
         background-color: #FACFCC;
         border-radius: 40px;
         border: solid 2px;
+        border: none;
         font-size: 20px;
     }
     input{
@@ -75,6 +76,11 @@ button{
         text-align: center;
         margin: 2%;  
     }
+    .want{
+        height: 30px;
+        width: 200px;
+    }
+    
     
     button{
         border-radius: 70px;
@@ -83,7 +89,8 @@ button{
         margin: 2%;
     }
     .search{
-        margin:1%  
+        margin:1%;
+        margin-right: 2%;
     }
     button{
         background-color:#AA9293;
@@ -107,6 +114,8 @@ button{
     }
     .advert{
         margin-left: 15%;
+        margin-right: 10%;
+        text-align: center;
     }
     #footer{
         display: flex;
@@ -117,67 +126,7 @@ button{
     }
 
 }
-@media only screen and (max-width: 414px){
-#header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
-    font-size: 2
-    15px;
-    
-}
-#page{
-    background-color: #FACFCC;
-    border-radius: 40px;
-    border-radius: 20px;
-    border: solid 8px;
-    font-size: 15px;
-}
-input{
-    border-radius: 70px;
-    height: 40px;
-    width: 300px;
-    text-align: center;
-    margin: 2%;  
-}
 
-button{
-    border-radius: 70px;
-    width: 120px;
-    height: 40px;
-    margin: 2%;
-}
-.search{
-    margin:1%  
-}
-button{
-    background-color:#AA9293;
-}
-.body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.image{
-    margin-left: 5%;
-    width:90%;
-
-}
-.message{
-    font-size: 30px;
-    color: rebeccapurple;
-    margin-left: 15%;
-}
-.advert{
-    margin-left: 15%;
-}
-#footer{
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-    background-color: white;
-}
-} 
 
 @media only screen and (max-width: 430px){
     #header{
@@ -192,7 +141,6 @@ button{
         background-color: #FACFCC;
         border-radius: 40px;
         border-radius: 20px;
-        border: solid 8px;
         font-size: 15px;
     }
     input{
@@ -241,129 +189,8 @@ button{
     }
     } 
 
-@media only screen and (max-width: 414px){
-#header{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;    
-    font-size: 2
-    15px;
-    
-}
-#page{
-    background-color: #FACFCC;
-    border-radius: 40px;
-    border-radius: 20px;
-    border: solid 8px;
-    font-size: 15px;
-}
-input{
-    border-radius: 70px;
-    height: 40px;
-    width: 300px;
-    text-align: center;
-    margin: 2%;  
-}
 
-button{
-    border-radius: 70px;
-    width: 120px;
-    height: 40px;
-    margin: 2%;
-}
-.search{
-    margin:1%  
-}
-button{
-    background-color:#AA9293;
-}
-.body{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.image{
-    margin-left: 5%;
-    width:90%;
 
-}
-.message{
-    font-size: 30px;
-    color: rebeccapurple;
-    margin-left: 15%;
-}
-.advert{
-    margin-left: 15%;
-}
-#footer{
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-    background-color: white;
-}
-} 
-
-@media only screen and (max-width: 360px){
-    #header{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;    
-        font-size: 2
-        15px;
-        
-    }
-    #page{
-        background-color: #FACFCC;
-        border-radius: 40px;
-        border-radius: 20px;
-        border: solid 8px;
-        font-size: 15px;
-    }
-    input{
-        border-radius: 70px;
-        height: 40px;
-        width: 300px;
-        text-align: center;
-        margin: 2%;  
-    }
-    
-    button{
-        border-radius: 70px;
-        width: 120px;
-        height: 40px;
-        margin: 2%;
-    }
-    .search{
-        margin:1%  
-    }
-    button{
-        background-color:#AA9293;
-    }
-    .body{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .image{
-        margin-left: 5%;
-        width:90%;
-    
-    }
-    .message{
-        font-size: 30px;
-        color: rebeccapurple;
-        margin-left: 15%;
-    }
-    .advert{
-        margin-left: 3%;
-    }
-    #footer{
-        display: flex;
-        justify-content: space-around;
-        font-size: 15px;
-        background-color: white;
-    }
-    } 
 
     @media only screen and (max-width: 540px){
         #header{
@@ -378,7 +205,6 @@ button{
             background-color: #FACFCC;
             border-radius: 40px;
             border-radius: 20px;
-            border: solid 8px;
             font-size: 15px;
         }
         input{
@@ -427,128 +253,4 @@ button{
         }
         } 
 
-        @media only screen and (max-width: 280px){
-            #header{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;    
-                font-size: 2
-                15px;
-                
-            }
-            #page{
-                background-color: #FACFCC;
-                border-radius: 40px;
-                border-radius: 20px;
-                border: solid 8px;
-                font-size: 15px;
-                width: 250px;
-            }
-            input{
-                border-radius: 70px;
-                height: 40px;
-                width: 200px;
-                text-align: center;
-                margin: 2%;  
-            }
-            
-            button{
-                border-radius: 70px;
-                width: 120px;
-                height: 40px;
-                margin: 2%;
-            }
-            .search{
-                margin:1%  
-            }
-            button{
-                background-color:#AA9293;
-            }
-            .body{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-around;
-            }
-            .image{
-                margin-left: 5%;
-                width:90%;
-            
-            }
-            .message{
-                font-size: 25px;
-                color: rebeccapurple;
-                margin-left: 15%;
-            }
-            .advert{
-                margin-left: 15%;
-            }
-            #footer{
-                display: flex;
-                justify-content: space-around;
-                font-size: 10px;
-                background-color: white;
-            }
-            } 
-
-@media only screen and (max-width: 320px){
-    #header{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;    
-        font-size: 2
-        15px;
         
-    }
-    #page{
-        background-color: #FACFCC;
-        border-radius: 40px;
-        border-radius: 20px;
-        border: solid 8px;
-        font-size: 15px;
-        width: 290px;
-    }
-    input{
-        border-radius: 70px;
-        height: 40px;
-        width: 200px;
-        text-align: center;
-        margin: 2%;  
-    }
-    
-    button{
-        border-radius: 70px;
-        width: 120px;
-        height: 40px;
-        margin: 2%;
-    }
-    .search{
-        margin:1%  
-    }
-    button{
-        background-color:#AA9293;
-    }
-    .body{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .image{
-        margin-left: 5%;
-        width:90%;
-    
-    }
-    .message{
-        font-size: 30px;
-        color: rebeccapurple;
-        margin-left: 15%;
-    }
-    .advert{
-        margin-left: 15%;
-    }
-    #footer{
-        display: flex;
-        justify-content: space-around;
-        font-size: 10px;
-        background-color: white;
-    }
-    } 
